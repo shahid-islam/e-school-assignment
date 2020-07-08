@@ -1,4 +1,4 @@
-.top-part{
+.top-part, .footer{
     width: 80%;
     margin: auto;
 }
@@ -15,14 +15,14 @@
     color: white;
 }
 
-.navbar-toggler-icon{
-
+.nav-item{
+    padding-left: 20px;
 }
 
 .green-button{
     background-color: #21B573;
     border-radius: 30px;
-    padding: 15px 20px 15px 20px;
+    padding: 5px 20px 5px 20px;
     border: none;
     color: white;
 }
@@ -31,9 +31,9 @@
     padding: 50px 0 50px 0;
 }
 
-.description{
-    margin-top: 40px;
-    margin-bottom: 40px;
+.description, .testimonial{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .bg-smoky{
@@ -47,3 +47,60 @@
     background-color: #FFFFFF;
     box-shadow: 4px 4px 21px 0px rgba(50, 50, 50, 0.67);
 }
+
+.headline{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.shadow{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 4px 21px 0px grey;
+}
+
+.card-img-top{
+    padding: 20px;
+}
+
+.card-footer img{
+    width: 24px;
+    height: 24px;
+}
+
+.card-footer{
+    border: none;
+    background-color: white;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+.testimonial img{
+    margin-right: 50px;
+}
+
+.bg-purple{
+    background-color: #282531;
+}
+
+footer{
+    color: white;
+}
+
+.footer{
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+.footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+@media only screen and (min-width: 1440px) {
+    .top-part, .footer{
+        max-width: 1152px;
+        margin: auto;
+    }
+  }
