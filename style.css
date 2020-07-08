@@ -1,0 +1,49 @@
+.top-part{
+    width: 80%;
+    margin: auto;
+}
+
+.bg-light-green{
+    background-color: #F0FFF0;
+}
+
+.sign-btn{
+    background-color: #21B573;
+    border-radius: 30px;
+    padding: 0 20px 0 20px;
+    border: none;
+    color: white;
+}
+
+.navbar-toggler-icon{
+
+}
+
+.green-button{
+    background-color: #21B573;
+    border-radius: 30px;
+    padding: 15px 20px 15px 20px;
+    border: none;
+    color: white;
+}
+
+.banner{
+    padding: 50px 0 50px 0;
+}
+
+.description{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bg-smoky{
+    background-color: #F8FFFB;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.bg-smoky:hover{
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 21px 0px rgba(50, 50, 50, 0.67);
+}
